@@ -1,0 +1,27 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Android_ShoppingListApp" parent="Theme.Material3.DayNight">
+        <!-- Customize your light theme here. -->
+        <item name="colorPrimary">@color/LightButton.Button.Border</item>
+        <item name="colorOnPrimary">#CA6A6A</item>
+        <item name="colorPrimaryContainer">#CA6A6A</item>
+        <!--android:textColorPrimary поменял цвет текста-->
+        <item name="android:textColorPrimary">#CA6A6A</item>
+        <item name="android:textColorSecondaryNoDisable">#CA6A6A</item>
+        <!--colorSecondary не сработал, android:colorSecondary и colorOnSecondary тоже-->
+        <item name="colorSecondary">#CA6A6A</item>
+        <item name="colorOnSecondary">#CA6A6A</item>
+        <!--android:textColorSecondary не дал изменений-->
+        <item name="android:textColorSecondary">#AC86EF</item>
+
+        <!--android:actionBarSize - меняет размер заголовка-->
+        <item name="android:actionBarSize">40dp</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:background">#D0C5E7</item>
+    </style>
+
+    <style name="Theme.Android_ShoppingListApp" parent="Base.Theme.Android_ShoppingListApp" />
+
+    <style name="MyStyle" parent="Widget.Material3.Button"/>
+
+</resources>

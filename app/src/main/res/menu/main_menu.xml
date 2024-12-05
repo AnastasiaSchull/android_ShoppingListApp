@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/orientationMenu"
+        android:title="@string/orientations">
+        <menu >
+            <item
+                android:id="@+id/portraitMenu"
+                android:title="@string/portrait" />
+            <item
+                android:id="@+id/landscapeMenu"
+                android:title="@string/landscape" />
+        </menu>
+    </item>
+    <item android:title="@string/locales" >
+        <menu >
+            <item
+                android:id="@+id/enLocaleMenu"
+                android:title="@string/en" />
+            <item
+                android:id="@+id/ukLocaleMenu"
+                android:title="@string/uk" />
+        </menu>
+    </item>
+    <item android:title="@string/themes">
+        <menu >
+            <item
+                android:id="@+id/lightThemeOption"
+                android:title="@string/light_theme" />
+            <item
+                android:id="@+id/darkThemeOption"
+                android:title="@string/dark_theme" />
+            <item
+                android:id="@+id/colorThemeOption"
+                android:title="@string/colored_theme" />
+        </menu>
+    </item>
+</menu>

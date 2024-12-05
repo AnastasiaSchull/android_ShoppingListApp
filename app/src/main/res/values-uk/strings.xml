@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Список покупок</string>
+    <string name="name">Назва</string>
+    <string name="portrait">Портретна</string>
+    <string name="orientations">Орiентацiя</string>
+    <string name="landscape">Ландшафтна</string>
+    <string name="locales">Локалiзацiя</string>
+    <string name="en">Англiйська</string>
+    <string name="uk">Украiнська</string>
+    <string name="themes">Теми</string>
+    <string name="light_theme">Свiтла</string>
+    <string name="dark_theme">Темна</string>
+    <string name="colored_theme">Кольорова</string>
+    <string name="add_item">Додати</string>
+    <string name="save">Зберегти</string>
+</resources>

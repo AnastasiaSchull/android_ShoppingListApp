@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Base theme -->
+    <style name="Color.Theme.Android_ShoppingListApp" parent="Theme.Material3.DayNight">
+        <item name="colorPrimary">@color/Blue.Background</item>
+        <item name="colorPrimaryVariant">@color/Blue.Border</item>
+        <item name="colorOnPrimary">@color/Blue.Button.Font</item>
+        <item name="android:background">#8966C7</item>
+        <item name="android:textColorPrimary">#5322AB</item>
+    </style>
+
+    <!-- Light theme -->
+    <style name="LightTheme" parent="Widget.Material3.Button">
+        <item name="colorPrimary">@color/LightButton.Button.Background</item>
+        <item name="android:background">#BCB5D0</item>
+    </style>
+
+    <!-- Dark theme -->
+    <style name="DarkTheme" parent="Widget.Material3.Button">
+        <item name="colorPrimary">@color/background_dark</item>
+        <item name="android:background">#423F47</item>
+    </style>
+
+    <!-- Colorful theme -->
+    <style name="ColorfulTheme" parent="Widget.Material3.Button">
+        <item name="colorPrimary">@color/Blue.Border</item>
+        <item name="android:background">#6C7BD1</item>
+    </style>
+</resources>

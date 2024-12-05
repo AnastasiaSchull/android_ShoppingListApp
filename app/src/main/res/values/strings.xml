@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">ShoppingListApp</string>
+    <string name="name">Name</string>
+    <string name="portrait">Portrait</string>
+    <string name="orientations">Orientation</string>
+    <string name="landscape">Landscape</string>
+    <string name="locales">Locales</string>
+    <string name="en">En</string>
+    <string name="uk">Uk</string>
+    <string name="themes">Themes</string>
+    <string name="light_theme">Light</string>
+    <string name="dark_theme">Dark</string>
+    <string name="colored_theme">Colored</string>
+    <string name="add_item">Add</string>
+    <string name="save">Save</string>
+</resources>
